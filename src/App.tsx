@@ -2,7 +2,6 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,8 +10,10 @@ function App() {
       <main>
         <About />
         <Projects />
-        <Contact />
       </main>
+      <footer>
+        <p>Versión 1.0.0 &copy; {new Date().getFullYear()}</p>
+      </footer>
     </div>
   );
 }
