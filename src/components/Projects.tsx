@@ -32,9 +32,9 @@ const projectData: Project[] = [
     title: "Proyecto Final e-commerce - soy henry",
     description: "Este es un proyecto para soy henry sobre un e-commerce de sumnplementes el cual fue echo en grupo",
     images: [
-      "./src/assets/pag2.webp",
-      "./src/assets/pag3.webp",
-      "./src/assets/pagina.png",
+      "./assets/pag2.webp",
+      "./assets/pag3.webp",
+      "./assets/pagina.png",
     ],
   },
   // Agrega más proyectos aquí
