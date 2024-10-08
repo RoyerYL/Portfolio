@@ -37,6 +37,13 @@ const projectData: Project[] = [
       "./assets/pagina.png",
     ],
   },
+  {
+    id: 3,
+    title: "Admin Control Store",
+    description: "Proycto freelancer para administrar articulos de un provedor mayorista",
+    images: [
+    ],
+  },
   // Agrega más proyectos aquí
 ];
 
