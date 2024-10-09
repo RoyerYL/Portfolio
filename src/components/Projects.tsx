@@ -3,19 +3,19 @@ import ProjectCard from './ProjectCard';
 import ImageGallery from './ImageGallery';
 
 // Importa las imágenes directamente
-import cj1 from '/public/cj1.png';
-import cj2 from '/public/cj2.png';
-import cj3 from '/public/cj3.png';
-import cj4 from '/public/cj4.png';
-import cj5 from '/public/cj5.png';
-import cj6 from '/public/cj6.png';
-import cj7 from '/public/cj7.png';
-import cj8 from '/public/cj8.png';
-import cj9 from '/public/cj9.png';
+import cj1 from '/cj1.png';
+import cj2 from '/cj2.png';
+import cj3 from '/cj3.png';
+import cj4 from '/cj4.png';
+import cj5 from '/cj5.png';
+import cj6 from '/cj6.png';
+import cj7 from '/cj7.png';
+import cj8 from '/cj8.png';
+import cj9 from '/cj9.png';
 
-import pag2 from '/public/pag2.webp';
-import pag3 from '/public/pag3.webp';
-import pagina from '/public/pagina.png';
+import pag2 from '/pag2.webp';
+import pag3 from '/pag3.webp';
+import pagina from '/pagina.png';
 
 interface Project {
   id: number;
