@@ -17,10 +17,10 @@ import pag2 from '/pag2.webp';
 import pag3 from '/pag3.webp';
 import pagina from '/pagina.png';
 
-import acs1 from '/acs(1).png';
-import acs2 from '/acs(2).png';
-import acs3 from '/acs(3).png';
-import acs4 from '/acs(4).png';
+import acs1 from '/acs1.png';
+import acs2 from '/acs2.png';
+import acs3 from '/acs3.png';
+import acs4 from '/acs4.png';
 
 
 interface Project {
