@@ -17,6 +17,12 @@ import pag2 from '/pag2.webp';
 import pag3 from '/pag3.webp';
 import pagina from '/pagina.png';
 
+import acs1 from '/acs(1).png';
+import acs2 from '/acs(2).png';
+import acs3 from '/acs(3).png';
+import acs4 from '/acs(4).png';
+
+
 interface Project {
   id: number;
   title: string;
@@ -41,7 +47,7 @@ const projectData: Project[] = [
     id: 3,
     title: "Admin Control Store",
     description: "Proyecto freelancer para administrar artículos de un proveedor mayorista",
-    images: [],
+    images: [acs1, acs2, acs3, acs4],
   },
   // Agrega más proyectos aquí si es necesario
 ];
