@@ -26,6 +26,7 @@ import acs4 from '/acs4.png';
 interface Project {
   id: number;
   title: string;
+  tecnology: string[];
   description: string;
   images: string[];
 }
@@ -34,23 +35,37 @@ const projectData: Project[] = [
   {
     id: 1,
     title: "Proyecto Personal - Caja Registradora",
-    description: "Este es un proyecto personal creado para comercios con el fin de tener un control de ventas y de stock, con una interfaz amigable",
+    description: "Este es un proyecto personal creado para comercios con el fin de tener un control de ventas y de stock, con una interfaz amigable.",
+    tecnology: [
+      "React.js",
+      "Node.js",
+      "Express",
+      "Electron",
+      "Framer Motion",
+      "Redux",
+      "React Router",
+      "Axios",
+      "Sequelize",
+      "SQLite"
+    ],
     images: [cj1, cj2, cj3, cj4, cj5, cj6, cj7, cj8, cj9],
   },
   {
     id: 2,
-    title: "Proyecto Final e-commerce - soy henry",
-    description: "Este es un proyecto para soy henry sobre un e-commerce de suplementos el cual fue hecho en grupo",
+    title: "Proyecto Final e-commerce - Soy Henry",
+    description: "Este es un proyecto para Soy Henry sobre un e-commerce de suplementos, hecho en grupo.",
+    tecnology: ["React.js", "Node.js", "Redux", "Axios", "Sequelize"],
     images: [pag2, pag3, pagina],
   },
   {
     id: 3,
     title: "Admin Control Store",
-    description: "Proyecto freelancer para administrar artículos de un proveedor mayorista",
+    description: "Proyecto freelancer para administrar artículos de un proveedor mayorista.",
+    tecnology: ["React.js", "Node.js", "Express", "SQLite", "Sequelize"],
     images: [acs1, acs2, acs3, acs4],
   },
-  // Agrega más proyectos aquí si es necesario
 ];
+
 
 const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);

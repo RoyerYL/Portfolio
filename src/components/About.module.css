@@ -1,0 +1,19 @@
+.about{
+    /* background-color: var(--color-background-6); */
+    text-align: center;
+}
+.about p{
+    margin: 20px;
+}
+.about a{
+    background-color: var(--color-background-6);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    color: var(--color-background-1);
+    text-decoration: none;
+}
+.about a:hover{
+    background-color: var(--color-background-1);
+    color: var(--color-background-6);
+}

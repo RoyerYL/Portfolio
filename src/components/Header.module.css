@@ -1,0 +1,12 @@
+.header{
+    background-color: var(--color-background-1);
+    color: var(--color-background-5);
+}
+.header  a{
+    color: var(--color-background-6);
+    text-decoration: none !important;
+}
+.header  a:hover{
+    color: var(--color-background-7);
+    text-decoration: none !important;
+}

@@ -5,21 +5,41 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  height: 100vh;
+
+  --color-background: #000000;      /* Negro puro */
+  --color-background-1: #1a1a1a; /* Gris muy oscuro */
+  --color-background-2: #333333;  /* Gris oscuro */
+  --color-background-3: #4d4d4d;   /* Gris oscuro intermedio */
+  --color-background-4: #666666;  /* Gris medio */
+  --color-background-5: #b3b3b3;   /* Gris claro */
+  --color-background-7: #e2e2e2;  /* Gris medio */
+  
+  --color-background-6: #ffffff;      /* Blanco puro */
+  
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-background-7);
+}
+#root{
+  width: 100%;
+  height: 100vh;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
 }
 
 
