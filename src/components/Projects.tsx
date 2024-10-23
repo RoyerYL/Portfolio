@@ -54,14 +54,14 @@ const projectData: Project[] = [
     id: 2,
     title: "Proyecto Final e-commerce - Soy Henry",
     description: "Este es un proyecto para Soy Henry sobre un e-commerce de suplementos, hecho en grupo.",
-    tecnology: ["React.js", "Node.js", "Redux", "Axios", "Sequelize"],
+    tecnology: ["React.js", "Node.js", "Redux", "Axios", "cloudinary", "bcrypt", "Sequelize"],
     images: [pag2, pag3, pagina],
   },
   {
     id: 3,
     title: "Admin Control Store",
     description: "Proyecto freelancer para administrar artículos de un proveedor mayorista.",
-    tecnology: ["React.js", "Node.js", "Express", "SQLite", "Sequelize"],
+    tecnology: ["Electron-Vite , React.js", "Node.js", "SQLite", "sweetalert2"],
     images: [acs1, acs2, acs3, acs4],
   },
 ];
